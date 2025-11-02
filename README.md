@@ -2,15 +2,67 @@
 
 A new Flutter project.
 
-## Getting Started
+# 📝 Aplikasi To-Do List Flutter
 
-This project is a starting point for a Flutter application.
+Proyek sederhana ini dibuat menggunakan **Flutter** dengan bantuan **Provider** sebagai state management.  
+Aplikasi ini berfungsi untuk menambahkan, menampilkan, dan menghapus daftar tugas secara real-time.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 👤 Identitas Pembuat
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Nama:** Fadillah Dani Prawoto  
+**NIM:** 2310130004  
+**Jurusan:** Ilmu Komputer  
+
+---
+
+## 📁 Struktur Folder
+
+lib/
+├─ main.dart
+├─ home_page.dart
+└─ task_provider.dart
+
+
+---
+
+## ⚙️ Cara Menjalankan
+
+1. Pastikan sudah menginstal **Flutter SDK** dan **Android Studio / VS Code**.
+2. Clone repository ini ke lokal:
+
+   ```bash
+   git clone https://github.com/username/nama-repo.git
+3. Masuk ke folder proyek:
+cd nama-repo
+
+4. Jalankan perintah untuk mengambil dependency:
+flutter pub get
+
+5. Jalankan aplikasi:
+flutter run
+
+
+**Dependensi yang Digunakan**
+
+Flutter SDK
+
+Provider (^6.1.2)
+
+Pastikan pubspec.yaml memiliki bagian berikut:
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+
+## 📸 Tampilan Aplikasi
+
+Berikut tampilan aplikasi To-Do List 👇
+
+ ![Screenshot Home](img/tampilan.jpg) |
+
+
+
+
